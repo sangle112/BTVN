@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập thẻ bảng</title>
+    <style>
+        table{
+            border-collapse:collapse;
+        }
+        table,th,td{
+            border: 2px solid blue;
+        }
+
+    </style>
+</head>
+<body
+>
+    <p>Tạo bảng</p>
+    <table>
+        <thead>
+            <tr>
+                <th>STT</th>
+                <th>Tên</th>
+                <th>Tuổi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th>1</th>
+                <th>Trần Thị A</th>
+                <th>25</th>
+            </tr>
+            <tr>
+                <th>2</th>
+                <th>Bùi Văn B</th>
+                <th>30</th>
+            </tr>
+        </tbody>
+    </table>    
+
+
+
+    <p>tạo bảng nâng cao</p>
+    <table>
+        <thead>
+            <tr>
+                <th>Thương hiệu</th>
+                <th>Sản phẩm</th>
+                <th>Giá</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowpan="3">Dell</th>
+                <th>laptop văn phòng</th>
+                <th>6.000.000 đ</th>
+            </tr>
+            <tr>
+                <th rowpan="3"></th>
+                <th>Laptop chơi game</th>
+                <th>10.000.000 đ</th>
+            </tr>
+            <tr>
+                <th rowpan="3"></th>
+                <th>Tai nghe</th>
+                <th>700.000 đ</th>
+            </tr>
+            <tr >
+                <th rowpan="3">Msi</th>
+                <th>Chuột chơi game</th>
+                <th>800.000 đ</th>
+            </tr>
+            <tr>    
+                <th rowpan="3"></th> 
+                <th>bàn phím</th>
+                <th>1.000.000 đ</th>
+            </tr>
+            <tr>
+                <th rowpan="3"></th>
+                <th>Tản nhiệt</th>
+                <th>300.000 đ</th>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">tổng cộng</th>
+                <th>20.000.000 đ</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
